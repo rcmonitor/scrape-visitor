@@ -1,6 +1,6 @@
 {
   "name": "scrape-visitor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "scraper aimed to help visit pages that require log in",
   "main": "index.js",
   "scripts": {
