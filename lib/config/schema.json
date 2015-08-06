@@ -1,0 +1,39 @@
+{
+	"type": "object",
+	"properties": {
+		"domain": {"type": "string"},
+		"inspector": {
+			"type": "object",
+			"properties": {
+				"logIn": {"type": "object"}
+			}
+		},
+		"interactor": {
+			"type": "object",
+			"properties": {
+				"preLoad": {
+					"type": "object",
+					"properties": {
+						"path": {"type": "string"},
+						"method": {"type": "string"}
+					}
+				},
+				"logIn": {
+					"type": "object",
+					"properties": {
+						"path": {"type": "string"},
+						"method": {"type": "string"},
+						"form": {"type": "object"}
+					}
+				},
+				"visit": {
+					"type": "object",
+					"properties": {
+						"path": {"type": "string"},
+						"method": {"type": "string"}
+					}
+				}
+			}
+		}
+	}
+}
