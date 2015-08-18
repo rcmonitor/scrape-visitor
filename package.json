@@ -1,10 +1,10 @@
 {
   "name": "scrape-visitor",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "scraper aimed to help visit pages that require log in",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "node test/test_sj.js"
   },
   "repository": {
     "type": "git",
