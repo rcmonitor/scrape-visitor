@@ -1,6 +1,6 @@
 {
   "name": "scrape-visitor",
-  "version": "1.4.2",
+  "version": "2.0.0",
   "description": "scraper aimed to help visit pages that require log in",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/rcmonitor/scrape-visitor",
   "dependencies": {
-    "helpers-global": "^2.5.0",
+    "helpers-global": "^2.7.0",
     "json-validation": "^1.0.4",
     "request": "^2.60.0"
   },
