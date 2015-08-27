@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/rcmonitor/scrape-visitor",
   "dependencies": {
-    "helpers-global": "^2.7.0",
+    "helpers-global": "^2.8.0",
     "json-validation": "^1.0.4",
     "request": "^2.60.0"
   },
