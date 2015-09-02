@@ -1,6 +1,6 @@
 /**
  * //@by_rcmonitor@//
- * on 24.08.2015.
+ * on 29.08.2015.
  */
 
 var path = require('path');
@@ -8,14 +8,14 @@ var path = require('path');
 var hpg = require('helpers-global');
 var Environment = hpg.Environment;
 
-Environment.setProduction();
+Environment.setDevelopment();
 
 var strRootPath = path.join(__dirname, '..');
 
 var ScrapeVisitor = require(path.join(strRootPath, 'index'));
 
-hpg.ensureFileNotExistsSync(path.join(strRootPath, 'test', 'log', 'new_superjob.log'));
+hpg.ensureFileNotExistsSync(path.join(strRootPath, 'test', 'log', 'hh.log'));
 
-var oSJVisitor = new ScrapeVisitor(path.join(strRootPath, 'test'), 'new_superjob');
+var oSJVisitor = new ScrapeVisitor(path.join(strRootPath, 'test'), 'hh');
 
 oSJVisitor.update();
