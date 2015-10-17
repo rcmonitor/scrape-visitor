@@ -4,7 +4,7 @@
   "description": "scraper aimed to help visit pages that require log in",
   "main": "index.js",
   "scripts": {
-    "test": "node test/test_sj.js"
+    "test": "node test/test_hh.js"
   },
   "repository": {
     "type": "git",
@@ -23,15 +23,15 @@
   },
   "homepage": "https://github.com/rcmonitor/scrape-visitor",
   "dependencies": {
-    "helpers-global": "^2.10.0",
+    "helpers-global": "^2.16.0",
     "html-meta-parser": "^1.0.0",
     "json-validation": "^1.0.4",
     "q": "^1.4.1",
     "request": "^2.60.0",
+    "request-debug": "^0.2.0",
     "sskv-parser": "^1.0.2"
   },
   "devDependencies": {
-    "chai": "^3.2.0",
-    "mocha": "^2.2.5"
+    "chai": "^3.2.0"
   }
 }
